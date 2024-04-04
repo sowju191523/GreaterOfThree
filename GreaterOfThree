@@ -1,0 +1,18 @@
+package hell;
+
+import java.util.Scanner;
+
+public class MaximumOfThree {
+ public static  void main(String[] args)
+ {
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    int m=sc.nextInt();
+    int o=sc.nextInt();
+    int x=n>m?n:m;
+    int y=x>o?x:o;
+    System.out.println(y);
+   
+    }
+    
+}
